@@ -4,7 +4,10 @@ public class SettlementReportFactory implements  IReportFactory {
 
 
     @Override
-    public IReport create() {
-        return new SettlementReport();
+    public SettlementReport create() {
+        return (SettlementReport) new SettlementReport();
     }
+
+
+
 }

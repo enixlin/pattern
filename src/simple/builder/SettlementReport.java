@@ -1,6 +1,4 @@
-package simple.Factory;
-
-import simple.builder.IReport;
+package simple.builder;
 
 public class SettlementReport implements IReport {
 
