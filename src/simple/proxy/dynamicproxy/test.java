@@ -1,0 +1,7 @@
+package simple.proxy.dynamicproxy;
+
+public class test {
+    public static void main(String[] args) {
+
+    }
+}

@@ -1,7 +1,7 @@
 package simple.Factory;
 
-public interface IReportFactory {
+public interface IReportFactory <T> {
 
-    SettlementReport create();
+    T create();
 
 }

@@ -4,7 +4,7 @@ public class SubjectReportFactory implements IReportFactory {
 
 
     @Override
-    public SettlementReport create() {
+    public SubjectReport create() {
         return new SubjectReport();
     }
 }
